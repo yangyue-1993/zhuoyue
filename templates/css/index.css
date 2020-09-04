@@ -1,0 +1,30 @@
+/* body */
+.text-centre{
+    text-align: center;
+    background: #f8f9fa;
+    margin: auto;
+}
+/* 登录标签组 */
+.login{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* img */
+.brand{
+    width:72px;
+    height: 72px;
+    margin-bottom: 1.5rem;
+    margin-top: 60px;
+}
+/* h2 */
+.prompt{
+    margin-bottom: 1.5rem;
+}
+/* input */
+.col-sm-4{
+    margin: auto;
+}
+/* button */
+.submit{
+    margin-top: 1.5rem;
+}

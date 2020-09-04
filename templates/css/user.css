@@ -1,0 +1,44 @@
+/* body */
+body ul { 
+    background: #f8f9fa;
+    margin:0;
+    padding: 0;
+}
+/* menu */
+.menu {
+    border-right: solid 1px;
+    color:grey;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 0px !important;
+}
+/* ul */
+ul {
+    text-align: center;
+}
+
+/* 列表 */
+.list li {
+    list-style: none;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 0px !important;
+}
+
+/* 卷包甲班的子列表 */
+.childjia li {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    padding-left: 0px !important;
+}
+/* childjia 伪选择器before */
+.childjia::before {
+    display: none;
+}
+
+/* childjia 伪选择器active */
+.childjia::active {
+    display: block;
+}

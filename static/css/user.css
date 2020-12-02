@@ -1,0 +1,94 @@
+/* 公共样式 */
+
+body,
+ul,
+h2,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8f9fa;
+}
+
+
+/* menu */
+
+.content-wrapper .menu {
+    border-right: solid 1px;
+    color: grey;
+    /* height: 100%; */
+    padding-top: 40px;
+    /* 覆盖bootstrap样式
+    padding-left: 0px !important;   */
+}
+
+
+/* ul */
+
+.list {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 列表 */
+
+.list li {
+    list-style: none;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* 覆盖bootstrap样式
+    padding-left: 0px !important; */
+}
+
+
+/* 卷包甲班的子列表 */
+
+.childjia li {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    /* 覆盖bootstrap样式
+    padding-left: 0px !important; */
+}
+
+
+/* 内容区域 */
+
+.content-wrapper .content {
+    /* padding-right: 0 !important; */
+    border-left: 1px solid black;
+    padding-left: 40px;
+}
+
+
+/* 标题，也就是人名 */
+
+.content .name-title {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.content .info-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* 基本信息 */
+
+.content .grade-table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
